@@ -2,7 +2,7 @@
   "name": "curso-react-twitter-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "nodemon lib/index.js --exec babel-node --presets es2015,stage-2",
     "build": "babel lib -d dist --presets es2015,stage-2",
