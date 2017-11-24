@@ -25,6 +25,7 @@
     "bluebird": "^3.5.1",
     "nodemon": "^1.12.1",
     "restify": "^6.3.4",
+    "restify-cors-middleware": "^1.0.1",
     "sqlite": "^2.8.0"
   }
 }
