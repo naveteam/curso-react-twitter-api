@@ -19,6 +19,19 @@ CREATE TABLE Tweets (
 );
 
 CREATE INDEX Tweets_ix_userId ON Tweets (userId);
+
+INSERT INTO Users (
+  name, 
+  email, 
+  password
+) values ("Joe Montana", "joe@montana.com", "123456");
+
+INSERT INTO Tweets (
+  userId,
+  text,
+  createAt
+) values (1, "Meu primeiro tweet!", "2017-12-04");
+
 --------------------------------------------------------------------------------
 -- Down
 --------------------------------------------------------------------------------
